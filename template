@@ -1,0 +1,27 @@
+bridge_mode: null
+broker:
+  priority_race:
+    '0':
+      fronted:
+        front: https://www.cdn77.com/
+        host: 1826209743.rsc.cdn77.org
+    '1000':
+      fronted:
+        front: https://www.vuejs.org/
+        host: svitania-naidallszei-2.netlify.app
+broker_keys: null
+cache: null
+credentials: null
+dry_run: false
+exit_constraint: null
+http_proxy_listen: null
+passthrough_china: false
+sess_metadata:
+  filter:
+    ads: false
+    nsfw: false
+socks5_listen: null
+spoof_dns: false
+task_limit: null
+vpn: false
+vpn_fd: null
