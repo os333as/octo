@@ -7,11 +7,6 @@ broker:
         front: https://www.cdn77.com/
         host: 1826209743.rsc.cdn77.org
         override_dns: null
-    '1500':
-      aws_lambda:
-        function_name: geph-lambda-bouncer
-        obfs_key: 855MJGAMB58MCPJBB97NADJ36D64WM2T:C4TN2M1H68VNMRVCCH57GDV2C5VN6V3RB8QMWP235D0P4RT2ACV7GVTRCHX3EC37
-        region: us-east-1
     '500':
       fronted:
         front: https://www.vuejs.org/
